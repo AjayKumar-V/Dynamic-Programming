@@ -16,5 +16,8 @@ class Solution:
 		
 		return res
 
-print()
-print(Solution.combinations(None,4,2))
+
+n = int(input())
+r = int(input())
+# Printing combinations of size r from numbers 1 to n.
+print(Solution.combinations(None,n,r))
